@@ -1,2 +1,3 @@
 # LandingPage
-Landing page Toppay.io
+Homepage for http://toppay.io
+
