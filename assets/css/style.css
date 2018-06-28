@@ -103,32 +103,34 @@ fieldset {
     padding: 0
 }
 
-.preloader {
-    bottom: 0;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0
+.btn-languages{
+	border: none;
+    border-radius: 0;
+    height: 40px;
+    padding: 0 20px;
+    line-height: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #FFF;
+    background: none;    
 }
 
-.loadscreen,
-.loadscreen-in {
-    background-image: url(../img/preloader.gif);
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 500px;
-    left: 50%;
-    margin: -100px 0 0 -100px;
-    position: absolute;
-    top: 6%;
-    width: 200px
+.languages a:hover{
+	color: #333;
 }
 
-.loadscreen-in {
-    background: 0 0;
-    left: 14px;
-    margin: 0;
-    top: 86%
+.languages img{
+	margin-top: -4px;
+	padding-right: 4px;
+}
+
+.languages ul{
+	padding: 10px;
+}
+
+.languages li{
+	line-height: 30px;
 }
 
 .totop {
