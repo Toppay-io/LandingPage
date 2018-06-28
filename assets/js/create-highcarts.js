@@ -44,15 +44,13 @@ Highcharts.chart('container', {
         }
     },                   
     series: [{
-        name: 'Brands',
+        name: 'Total',
         data: [
-            { name: '0.7 $', y: 12 },
-            { name: '0.9 $', y: 15 },
-            { name: '0.95 $', y: 16 },
-            { name: '1.05 $', y: 17 },
-            { name: '1.10 $', y: 19 },
-            { name: '1.20 $', y: 21 }
-            
+            { name: 'Pre-ico: 0.7 $', y: 20 },
+            { name: 'Crowdsale: 0.9 $', y: 5 },
+            { name: 'Crowdsale: 0.95 $', y: 20 },
+            { name: 'Crowdsale: 1.05 $', y: 25 },
+            { name: 'Backup: 1.25 $', y: 30 }
         ]
     }]
 });
