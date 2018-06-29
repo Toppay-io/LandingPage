@@ -4184,6 +4184,11 @@ textarea:focus {
 timeline-split Section
 ------------------------------ */
 
+h5.position{
+    font-size: 14pt;    
+    color: #ee4334;
+    font-weight: normal;
+}
 
 /*decrease the timeline heading text */
 
