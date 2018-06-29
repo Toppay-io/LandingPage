@@ -914,7 +914,8 @@ fieldset {
     font-size: 50px;
     margin-top: 0;
     text-transform: uppercase;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    padding: 20px 0px;
 }
 
 .btn,
@@ -1010,8 +1011,7 @@ fieldset {
     }
 }
 
-@media only screen and (max-width:768px) {
-    .btn-home-2,
+@media only screen and (max-width:768px) {    
     .home-static-middle p:after,
     .home-static-middle p:before {
         display: none
@@ -1043,8 +1043,7 @@ fieldset {
     }
 }
 
-@media only screen and (max-width:576px) {
-    .btn-home-2,
+@media only screen and (max-width:576px) {    
     .home-static-middle p:after,
     .home-static-middle p:before {
         display: none
@@ -4232,3 +4231,4 @@ timeline-split Section
         margin-top: 30px
     }
 }
+
