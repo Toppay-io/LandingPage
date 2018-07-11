@@ -328,28 +328,4 @@ Table Of Contents end
     };
     var jsonUri = "data:text/plain;base64,"+window.btoa(JSON.stringify(partJson));
     particlesJS.load('particles-js', jsonUri);
-
-
-    /* Detech country of client */
-    var requestUrl = "http://ip-api.com/json";
-    $.ajax({
-      url: requestUrl,
-      type: 'GET',
-      success: function(json)
-      {
-        // console.log("My country is: " + json.country);
-        switch(json.country){
-          case "Vietnam" :
-            document.location.href = "https://toppay.io/vi/index.html";
-          break;
-          
-        }
-      },
-      error: function(err)
-      {
-        console.log("Request failed, error= " + err);
-      }
-    });
-
-	
 })(jQuery);

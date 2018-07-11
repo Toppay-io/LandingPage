@@ -1262,6 +1262,38 @@
     <!-- particles effect -->
     <script src="assets/js/particles.js"></script>
     <script src="assets/js/scripts.js"></script>
+    <script type="text/javascript">
+        /* Detech country of client */
+        var requestUrl = "http://ip-api.com/json";
+        $.ajax({
+          url: requestUrl,
+          type: 'GET',
+          success: function(json)
+          {
+            // console.log("My country is: " + json.country);
+            switch(json.country){
+              case "Vietnam" :
+                document.location.href = "https://toppay.io/vi/index.html";
+              break;
+              
+            }
+          },
+          error: function(err)
+          {
+            console.log("Request failed, error= " + err);
+          }
+        });
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122179973-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-122179973-1');
+    </script>
+
 </body>
 
 </html>
